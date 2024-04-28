@@ -1,0 +1,9 @@
+.ingredient {
+  &:not(:first-child) {
+    padding-left: 4px;
+  }
+}
+
+.ingredient:not(:last-child)::after {
+  content: ', ';
+}

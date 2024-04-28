@@ -2,6 +2,7 @@ const express = require("express");
 const api = require("./api");
 const bodyParser = require("body-parser");
 const port = 3005;
+const cors = require('cors');
 
 const app = express();
 
@@ -14,6 +15,12 @@ app.use(function (req, res, next) {
     );
     next();
 });
+
+app.use(cors({
+    origin: 'http://localhost:3000', // Разрешаем запросы для Next.js
+    methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH'],
+    credentials: true
+}));
 
 app.use(bodyParser.json());
 

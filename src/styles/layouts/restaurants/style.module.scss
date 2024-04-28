@@ -1,0 +1,35 @@
+.restaurants {
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.text {
+  width: 70%;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.restaurantTabs {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 30px;
+}

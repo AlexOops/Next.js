@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.tab {
+  padding: 10px 30px;
+  background-color: $light-yellow-color;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  border: 2px solid transparent;
+
+  &:hover {
+    cursor: pointer;
+    border: 2px solid $secondary-color;
+  }
+}
+
+.active {
+  color: $secondary-color;
+  border: 2px solid $secondary-color;
+}

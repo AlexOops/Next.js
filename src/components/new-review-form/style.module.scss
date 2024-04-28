@@ -1,0 +1,32 @@
+@import 'src/styles/variables';
+
+.form {
+  margin-top: 50px;
+  border: 1px solid $secondary-color;
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  min-width: 500px;
+  min-height: 200px;
+}
+
+.input {
+  padding: 10px;
+  border: 0.5px solid $secondary-color;
+  border-radius: 7px;
+
+  &:focus {
+    outline: 1px solid $secondary-color;
+  }
+}
+
+.error {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: red;
+}

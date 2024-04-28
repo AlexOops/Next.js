@@ -1,0 +1,36 @@
+@import 'src/styles/variables';
+
+.review {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10px;
+  border: 1px solid $secondary-color;
+
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
+.user {
+  font-size: 20px;
+  color: $secondary-color;
+  font-weight: 500;
+}
+
+.text {
+  padding-top: 7px;
+  font-size: 18px;
+}
+
+.rating {
+  padding-top: 7px;
+  font-size: 20px;
+  color: $secondary-color;
+  font-weight: 700;
+}

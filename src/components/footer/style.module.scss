@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+  }
+
+  span {
+    padding-left: 5px;
+    color: $secondary-color;
+  }
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.footer {
+  margin-top: 50px;
+  flex-shrink: 0;
+}

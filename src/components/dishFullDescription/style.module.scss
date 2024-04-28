@@ -1,0 +1,67 @@
+@import 'src/styles/variables';
+
+.action {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+}
+
+.dish {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dishWrapper {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  align-self: self-start;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+.ingredients {
+  align-self: self-start;
+  font-size: 20px;
+  min-width: 250px;
+  display: flex;
+  padding-top: 20px;
+}
+
+.price {
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 800;
+  color: $secondary-color;
+}
+
+.quantityControl {
+  padding-top: 10px;
+  width: 100%;
+  align-self: unset;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
